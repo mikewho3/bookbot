@@ -11,7 +11,6 @@ def main():             #define main here
     #print(count)               #print the counted words after the function finishes
     characters = char_count(book)
     sorted = sort_stuff(characters)
-    # Building a multi-line report
     report = ""
     report += "============ BOOKBOT ============\n"
     report += f"Analyzing book found at {file_path}...\n"
